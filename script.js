@@ -16,26 +16,22 @@ q1a4.addEventListener("click", ravenclaw1);
 
 function gryffindor1(event) {
     gryffindorScore += 1;
-    console.log("gryffindor");
-    updateResult();  //Once you have more than one question, you won't want to call this until the quiz is over. 
+    updateResult();
 }
 
 function slytherin1(event) {
     slytherinScore += 1;
-    console.log("slytherin");
-    updateResult();  //Once you have more than one question, you won't want to call this until the quiz is over. 
+    updateResult();
 } 
 
 function hufflepuff1(event) {
     hufflepuffScore += 1;
-    console.log("hufflepuff");
-    updateResult(); //Once you have more than one question, you won't want to call this until the quiz is over. 
+    updateResult();
   }
 
 function ravenclaw1(event) {
     ravenclawScore += 1;
-    console.log("ravenclaw");
-    updateResult(); //Once you have more than one question, you won't want to call this until the quiz is over. 
+    updateResult();
   }
 
 // You'll need to update the function below depending on the number of questions you ask. 
