@@ -14,7 +14,7 @@ h2 {
   margin-top: 2em; 
 }
 
-#question1 {
+.question {
   display: flex;
   margin-top: 2em;
 }
