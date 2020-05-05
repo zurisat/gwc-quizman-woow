@@ -1,4 +1,4 @@
-## Instructions
+## Personality Quiz Starter Project
 
 Remix this starter code or just use it to see how you might get started on your personality quiz.
 
@@ -6,8 +6,25 @@ Click `Show` in the header to see your app live. We recommend choosing the `Next
 
 Updates to your code will instantly deploy and update live.
 
+## Project Requirements
+Your quiz should:
 
-## Your Project
+* Have at least three questions.
+* Have at least four choices per question.
+* Allow the user to select an answer choice by clicking a button or photo.
+* Produce different results for different combinations of selections.
+
+## Project Extensions
+Once you meet the basic requirements, you might:
+
+* **Extension 1:** Lengthen your quiz with more questions.
+* **Extension 2:** All the user to retake or restart the quiz.
+* **Extension 3:** Change your JavaScript to disable buttons after the user has selected an answer.
+* **Extension 4:** Improve the user experience of your quiz.
+* **Extension 5:** Make your website more accessible.
+* **Extension 6:** Change your JavaScript to allow a user to change their selections at any point before they finish the quiz.
+
+## Starter Code File Overview
 
 ### ← README.md
 
@@ -29,23 +46,6 @@ We will be working mainly in this file to add interactivity to the buttons on ou
 
 ### ← assets
 
-Drag in `assets`, like images or music, to add them to your project. You can use images online and grab their URL Address or use some of your own images.  Be sure that your images 
+Drag in `assets`, like images or music, to add them to your project. You can use images online and grab their URL Address or use some of your own images.
 
-## Project Requirements
-Your quiz should:
-
-* Have at least three questions.
-* Have at least four choices per question.
-* Allow the user to select an answer choice by clicking a button or photo.
-* Produce different results for different combinations of selections.
-
-## Project Extensions
-Once you meet the basic requirements, you might:
-
-* **Extension 1:** Lengthen your quiz with more questions.
-* **Extension 2:** All the user to retake or restart the quiz.
-* **Extension 3:** Change your JavaScript to disable buttons after the user has selected an answer.
-* **Extension 4:** Improve the user experience of your quiz.
-* **Extension 5:** Make your website more accessible.
-* **Extension 6:** Change your JavaScript to allow a user to change their selections at any point before they finish the quiz.
-
+Be sure that your images can be accessed digitally. If you want to use print photos, take a picture of it and then upload them in the assets folder.
