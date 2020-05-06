@@ -31,4 +31,18 @@ var questionCount = 0;
 
 
 //#TODO: Define quiz functions here
+function result1(){
+  
+}
 
+function result2(){
+  
+  
+}
+
+function result3(){
+  
+  
+}
+
+function result3
