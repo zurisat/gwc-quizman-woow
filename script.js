@@ -12,3 +12,23 @@ var questionCount = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 
+
+
+
+
+
+
+//#TODO: Add Event Listeners to your answer choice variables.
+
+
+
+
+
+
+
+
+
+
+
+//#TODO: Define quiz functions here
+
