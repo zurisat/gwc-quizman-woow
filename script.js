@@ -2,8 +2,7 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-
-
+console.log("HELLO WORLD!")
 
 
 
@@ -11,7 +10,8 @@ var questionCount = 0;
 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
-
+var q1a1 = document.getElementById("q1a1");
+q1a1.addEventListener("click", test);
 
 
 
@@ -31,22 +31,6 @@ var questionCount = 0;
 
 
 //#TODO: Define quiz functions here
-function result1(){
-  
-}
-
-function result2(){
-  
-  
-}
-
-function result3(){
-  
-  
-}
-
-function result4(){
-  
-  
-  
+function test(){
+  console.log("hi");
 }
