@@ -9,7 +9,7 @@ var questionCount = 0;
 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
-
+var q1a1 = document.getElementId("q1a1");
 
 
 
@@ -17,10 +17,7 @@ var questionCount = 0;
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-
-
-
-
+q1a1.addEventListener("click", result1);
 
 
 
@@ -29,3 +26,8 @@ var questionCount = 0;
 
 
 //#TODO: Define quiz functions here
+function result1(){
+  
+  
+  
+}
