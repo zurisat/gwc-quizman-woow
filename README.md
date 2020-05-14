@@ -18,7 +18,7 @@ Your quiz should:
 Once you meet the basic requirements, you might:
 
 * **Extension 1:** Lengthen your quiz with more questions.
-* **Extension 2:** All the user to retake or restart the quiz.
+* **Extension 2:** Allow the user to retake or restart the quiz.
 * **Extension 3:** Change your JavaScript to disable buttons after the user has selected an answer.
 * **Extension 4:** Improve the user experience of your quiz.
 * **Extension 5:** Make your website more accessible.
