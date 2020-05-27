@@ -1,7 +1,3 @@
-/* Here is a line of comment
-
-here is another comment!
-*/
 //Global Variables
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
