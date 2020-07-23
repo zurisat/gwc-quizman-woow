@@ -33,7 +33,6 @@ var q5a2 = document.getElementById("q5a2");
 var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
-//variable to get result h2 tag
 var result = document.getElementById("result");
 
 //#TODO: Add Event Listeners to your answer choice variables.
@@ -66,7 +65,7 @@ q5a4.addEventListener("click", chaylorScore);
 function troyella() {
   troyellaScore += 1;
   questionCount += 1;
-
+  
   if (questionCount >= 5) {
     updateResult();
   }
