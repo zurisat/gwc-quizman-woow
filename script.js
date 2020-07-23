@@ -36,11 +36,30 @@ var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
-q1a2.addEventListener("click", )
+q1a1.addEventListener("click", troyellaScore);
+q1a2.addEventListener("click", sharpayScore);
+q1a3.addEventListener("click", chaylorScore);
+q1a4.addEventListener("click", relsiScore);
 
+q2a1.addEventListener("click", troyellaScore);
+q2a2.addEventListener("click", chaylorScore);
+q2a3.addEventListener("click", relsiScore);
+q2a4.addEventListener("click", sharpayScore);
 
+q3a1.addEventListener("click", troyellaScore);
+q3a2.addEventListener("click", relsiScore);
+q3a3.addEventListener("click", chaylorScore);
+q3a4.addEventListener("click", troyellaScore);
 
+q4a1.addEventListener("click", chaylorScore);
+q4a2.addEventListener("click", troyellaScore);
+q4a3.addEventListener("click", relsiScore);
+q4a4.addEventListener("click", sharpayScore);
+
+q5a1.addEventListener("click", troyellaScore);
+q5a2.addEventListener("click", sharpayScore);
+q5a3.addEventListener("click", relsiScore);
+q5a4.addEventListener("click", chaylorScore);
 
 
 
