@@ -7,7 +7,6 @@ var relsiScore = 0;
 var chaylorScore = 0;
 var sharpayScore = 0;
 
-
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -68,7 +67,7 @@ function troyella() {
   troyellaScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 3) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
@@ -76,7 +75,7 @@ function sharpay() {
   sharpayScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 3) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
@@ -84,7 +83,7 @@ function relsi() {
   relsiScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 3) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
@@ -92,7 +91,7 @@ function chaylor() {
   chaylorScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 3) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
