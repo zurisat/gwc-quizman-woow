@@ -49,7 +49,7 @@ q2a4.addEventListener("click", sharpayScore);
 q3a1.addEventListener("click", troyellaScore);
 q3a2.addEventListener("click", relsiScore);
 q3a3.addEventListener("click", chaylorScore);
-q3a4.addEventListener("click", troyellaScore);
+q3a4.addEventListener("click", sharpayScore);
 
 q4a1.addEventListener("click", chaylorScore);
 q4a2.addEventListener("click", troyellaScore);
@@ -64,8 +64,21 @@ q5a4.addEventListener("click", chaylorScore);
 
 
 //#TODO: Define quiz functions here
-function result1(){
+function troyella(){
+  troyellaScore +=1;
+  questionCount +=1;
   
-  
-  
+  if (questionCount >=3) {}
+}
+function sharpay(){
+  sharpayScore +=1;
+  questionCount +=1;
+}
+function relsi(){
+  relsiScore +=1;
+  questionCount +=1;
+}
+function chaylor(){
+  chaylorScore +=1;
+  questionCount +=1;
 }
