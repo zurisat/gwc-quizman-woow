@@ -61,6 +61,7 @@ q5a2.addEventListener("click", sharpayScore);
 q5a3.addEventListener("click", relsiScore);
 q5a4.addEventListener("click", chaylorScore);
 
+var result = document.getElementById("result");
 
 
 //#TODO: Define quiz functions here
@@ -68,17 +69,31 @@ function troyella(){
   troyellaScore +=1;
   questionCount +=1;
   
-  if (questionCount >=3) {}
+  if (questionCount >=3) {
+    updateResult();
+  }
 }
 function sharpay(){
   sharpayScore +=1;
   questionCount +=1;
+  
+  if (questionCount >=3) {
+    updateResult();
+  }
 }
 function relsi(){
   relsiScore +=1;
   questionCount +=1;
+  
+  if (questionCount >=3) {
+    updateResult();
+  }
 }
 function chaylor(){
   chaylorScore +=1;
   questionCount +=1;
+  
+  if (questionCount >=3) {
+    updateResult();
+  }
 }
