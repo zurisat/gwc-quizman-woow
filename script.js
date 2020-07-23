@@ -7,7 +7,7 @@ var relsiScore = 0;
 var chaylorScore = 0;
 var sharpayScore = 0;
 
-
+var result = document.getElementById("result");
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -61,39 +61,50 @@ q5a2.addEventListener("click", sharpayScore);
 q5a3.addEventListener("click", relsiScore);
 q5a4.addEventListener("click", chaylorScore);
 
-var result = document.getElementById("result");
-
-
 //#TODO: Define quiz functions here
-function troyella(){
-  troyellaScore +=1;
-  questionCount +=1;
-  
-  if (questionCount >=3) {
+function troyella() {
+  troyellaScore += 1;
+  questionCount += 1;
+
+  if (questionCount >= 3) {
     updateResult();
   }
 }
-function sharpay(){
-  sharpayScore +=1;
-  questionCount +=1;
-  
-  if (questionCount >=3) {
+function sharpay() {
+  sharpayScore += 1;
+  questionCount += 1;
+
+  if (questionCount >= 3) {
     updateResult();
   }
 }
-function relsi(){
-  relsiScore +=1;
-  questionCount +=1;
-  
-  if (questionCount >=3) {
+function relsi() {
+  relsiScore += 1;
+  questionCount += 1;
+
+  if (questionCount >= 3) {
     updateResult();
   }
 }
-function chaylor(){
-  chaylorScore +=1;
-  questionCount +=1;
-  
-  if (questionCount >=3) {
+function chaylor() {
+  chaylorScore += 1;
+  questionCount += 1;
+
+  if (questionCount >= 3) {
     updateResult();
+  }
+}
+
+function updateResult() {
+  if (troyellaScore >= 2) {
+    result.innerHTML = "troy and gabrialla!";
+  } else if (sharpayScore >= 2) {
+    result.innerHTML = "sharpay!";
+  } else if (relsiScore >= 2) {
+    result.innerHTML = "chelsi and ryan!";
+  } else if (chaylorScore >= 2) {
+    result.innerHTML = "taylor and chad!";
+  } else {
+    result.innerHTML = "Looks like uve tricked us ";
   }
 }
