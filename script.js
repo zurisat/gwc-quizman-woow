@@ -37,7 +37,7 @@ var q5a4 = document.getElementById("q5a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", result1);
-
+q1a2.addEventListener("click", )
 
 
 
