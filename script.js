@@ -34,30 +34,30 @@ var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", troyellaScore);
-q1a2.addEventListener("click", sharpayScore);
-q1a3.addEventListener("click", chaylorScore);
-q1a4.addEventListener("click", relsiScore);
+q1a1.addEventListener("click", troyella);
+q1a2.addEventListener("click", sharpay);
+q1a3.addEventListener("click", chaylor);
+q1a4.addEventListener("click", relsi);
 
-q2a1.addEventListener("click", troyellaScore);
-q2a2.addEventListener("click", chaylorScore);
-q2a3.addEventListener("click", relsiScore);
-q2a4.addEventListener("click", sharpayScore);
+q2a1.addEventListener("click", troyella);
+q2a2.addEventListener("click", chaylor);
+q2a3.addEventListener("click", relsi);
+q2a4.addEventListener("click", sharpay);
 
-q3a1.addEventListener("click", relsiScore);
-q3a2.addEventListener("click", troyellaScore);
-q3a3.addEventListener("click", chaylorScore);
-q3a4.addEventListener("click", sharpayScore);
+q3a1.addEventListener("click", relsi);
+q3a2.addEventListener("click", troyella);
+q3a3.addEventListener("click", chaylor);
+q3a4.addEventListener("click", sharpay);
 
-q4a1.addEventListener("click", chaylorScore);
-q4a2.addEventListener("click", troyellaScore);
-q4a3.addEventListener("click", relsiScore);
-q4a4.addEventListener("click", sharpayScore);
+q4a1.addEventListener("click", chaylor);
+q4a2.addEventListener("click", troyella);
+q4a3.addEventListener("click", relsi);
+q4a4.addEventListener("click", sharpay);
 
-q5a1.addEventListener("click", troyellaScore);
-q5a2.addEventListener("click", sharpayScore);
-q5a3.addEventListener("click", relsiScore);
-q5a4.addEventListener("click", chaylorScore);
+q5a1.addEventListener("click", troyella);
+q5a2.addEventListener("click", sharpay);
+q5a3.addEventListener("click", relsi);
+q5a4.addEventListener("click", chaylor);
 
 //#TODO: Define quiz functions here
 function troyella() {
