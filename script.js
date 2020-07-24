@@ -102,8 +102,8 @@ function updateResult() {
   } else if (relsiScore >= 3) {
     result.innerHTML = "You got Kelsi and Ryan! You are an incredibly talented person, but you don’t always have the confidence. You tend to hide who you really are or pretend to be someone else to satisfy others. Don’t be afraid to speak up, people will listen and see how incredible you are!";
   } else if (chaylorScore >= 3) {
-    result.innerHTML = "taylor and chad";
+    result.innerHTML = "Congrats! You got Chad and Taylor! You may look and act like a complete jokester but you have a serious and wise side too. People appreciate you for your wit and good advice. Your voice sometimes overpowers other people in the room. Taking up space is good, but don’t trample over everyone!";
   } else {
-    result.innerHTML = "blah blah";
+    result.innerHTML = "CONGRATS! You got Mrs. Darbus… Now don’t be DRAMATIC! Mrs. Darbus honestly deserves more hype :) The Darbus gang is vibing at a level higher than everyone else in High School Musical. Try again! Maybe you’ll get a couple, maybe not.";
   }
 }
