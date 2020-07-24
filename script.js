@@ -33,7 +33,6 @@ var q5a2 = document.getElementById("q5a2");
 var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
-var result = document.getElementById("result");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", troyellaScore);
@@ -96,6 +95,7 @@ function chaylor() {
 }
 
 function updateResult() {
+  var result = document.getElementById("result"); 
   if (troyellaScore >= 3) {
     result.innerHTML = "troy and gabriella!";
   } 
