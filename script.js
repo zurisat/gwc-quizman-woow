@@ -96,8 +96,8 @@ function chaylor() {
 function updateResult() {
   var result = document.getElementById("result");
   if (troyellaScore >= 3) {
-    result.innerHTML = <img src: />"Congrats! You got Troy and Gabriella! You live life looking through rose tinted lenses and are the main character in your life. You attract other people to you because of your uniqueness and tendency to be different than the 'Status Quo’. Sometimes you may be a little shy but once people get to know you, you open up!";
-  } else if (sharpayScore >= 3) {
+    result.innerHTML = "Congrats! You got Troy and Gabriella! You live life looking through rose tinted lenses and are the main character in your life. You attract other people to you because of your uniqueness and tendency to be different than the 'Status Quo’. Sometimes you may be a little shy but once people get to know you, you open up!";
+    } else if (sharpayScore >= 3) {
     result.innerHTML = "sharpay";
   } else if (relsiScore >= 3) {
     result.innerHTML = "chelsi and ryan";
