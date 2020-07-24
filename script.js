@@ -46,8 +46,8 @@ q2a2.addEventListener("click", chaylorScore);
 q2a3.addEventListener("click", relsiScore);
 q2a4.addEventListener("click", sharpayScore);
 
-q3a1.addEventListener("click", troyellaScore);
-q3a2.addEventListener("click", relsiScore);
+q3a1.addEventListener("click", relsiScore);
+q3a2.addEventListener("click", troyellaScore);
 q3a3.addEventListener("click", chaylorScore);
 q3a4.addEventListener("click", sharpayScore);
 
@@ -96,15 +96,19 @@ function chaylor() {
 }
 
 function updateResult() {
-  if (troyellaScore >= 2) {
-    result.innerHTML = "troy and gabrialla!";
-  } else if (sharpayScore >= 2) {
+  if (troyellaScore >= 3) {
+    result.innerHTML = "troy and gabriella!";
+  } 
+  else if (sharpayScore >= 3) {
     result.innerHTML = "sharpay!";
-  } else if (relsiScore >= 2) {
+  } 
+  else if (relsiScore >= 3) {
     result.innerHTML = "chelsi and ryan!";
-  } else if (chaylorScore >= 2) {
+  } 
+  else if (chaylorScore >= 3) {
     result.innerHTML = "taylor and chad!";
-  } else {
-    result.innerHTML = "Looks like uve tricked us ";
+  } 
+  else {
+    result.innerHTML = "blah";
   }
 }
