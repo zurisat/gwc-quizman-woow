@@ -33,7 +33,6 @@ var q5a2 = document.getElementById("q5a2");
 var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
-
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", troyellaScore);
 q1a2.addEventListener("click", sharpayScore);
@@ -64,7 +63,7 @@ q5a4.addEventListener("click", chaylorScore);
 function troyella() {
   troyellaScore += 1;
   questionCount += 1;
-  
+
   if (questionCount >= 5) {
     updateResult();
   }
@@ -95,20 +94,16 @@ function chaylor() {
 }
 
 function updateResult() {
-  var result = document.getElementById("result"); 
+  var result = document.getElementById("result");
   if (troyellaScore >= 3) {
     result.innerHTML = "troy and gabriella!";
-  } 
-  else if (sharpayScore >= 3) {
-    result.innerHTML = "sharpay!";
-  } 
-  else if (relsiScore >= 3) {
-    result.innerHTML = "chelsi and ryan!";
-  } 
-  else if (chaylorScore >= 3) {
-    result.innerHTML = "taylor and chad!";
-  } 
-  else {
-    result.innerHTML = "blah";
+  } else if (sharpayScore >= 3) {
+    result.innerHTML = "sharpay";
+  } else if (relsiScore >= 3) {
+    result.innerHTML = "chelsi and ryan";
+  } else if (chaylorScore >= 3) {
+    result.innerHTML = "taylor and chad";
+  } else {
+    result.innerHTML = "blah blah";
   }
 }
