@@ -5,7 +5,7 @@ var questionCount = 0;
 var troyellaScore = 0;
 var relsiScore = 0;
 var chaylorScore = 0;
-var sharpayScore = 0;
+var zepayScore = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -35,27 +35,27 @@ var q5a4 = document.getElementById("q5a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", troyella);
-q1a2.addEventListener("click", sharpay);
+q1a2.addEventListener("click", zepay);
 q1a3.addEventListener("click", chaylor);
 q1a4.addEventListener("click", relsi);
 
 q2a1.addEventListener("click", troyella);
 q2a2.addEventListener("click", chaylor);
 q2a3.addEventListener("click", relsi);
-q2a4.addEventListener("click", sharpay);
+q2a4.addEventListener("click", zepay);
 
 q3a1.addEventListener("click", relsi);
 q3a2.addEventListener("click", troyella);
 q3a3.addEventListener("click", chaylor);
-q3a4.addEventListener("click", sharpay);
+q3a4.addEventListener("click", zepay);
 
 q4a1.addEventListener("click", chaylor);
 q4a2.addEventListener("click", troyella);
 q4a3.addEventListener("click", relsi);
-q4a4.addEventListener("click", sharpay);
+q4a4.addEventListener("click", zepay);
 
 q5a1.addEventListener("click", troyella);
-q5a2.addEventListener("click", sharpay);
+q5a2.addEventListener("click", zepay);
 q5a3.addEventListener("click", relsi);
 q5a4.addEventListener("click", chaylor);
 
@@ -68,8 +68,8 @@ function troyella() {
     updateResult();
   }
 }
-function sharpay() {
-  sharpayScore += 1;
+function zepay() {
+  zepayScore += 1;
   questionCount += 1;
 
   if (questionCount >= 5) {
@@ -97,10 +97,10 @@ function updateResult() {
   var result = document.getElementById("result");
   if (troyellaScore >= 3) {
     result.innerHTML = "Congrats! You got Troy and Gabriella! You live life looking through rose tinted lenses and are the main character in your life. You attract other people to you because of your uniqueness and tendency to be different than the 'Status Quo’. Sometimes you may be a little shy but once people get to know you, you open up!";
-    } else if (sharpayScore >= 3) {
-    result.innerHTML = "sharpay";
+    } else if (zepayScore >= 3) {
+    result.innerHTML = "Congrats! You got Zeke and Sharpay, what an iconic duo ! :) You ara a confident individual who other people look up to. You may not realise it, but you are a natural leader. You are not afraid to speak your mind and stand up for what you believe in! You are FABULOUS!";
   } else if (relsiScore >= 3) {
-    result.innerHTML = "chelsi and ryan";
+    result.innerHTML = "You got Kelsi and Ryan! You are an incredibly talented person, but you don’t always have the confidence. You tend to hide who you really are or pretend to be someone else to satisfy others. Don’t be afraid to speak up, people will listen and see how incredible you are!";
   } else if (chaylorScore >= 3) {
     result.innerHTML = "taylor and chad";
   } else {
