@@ -96,7 +96,8 @@ function chaylor() {
 function updateResult() {
   var result = document.getElementById("result");
   if (troyellaScore >= 3) {
-    result.innerHTML = "troy and gabriella!";
+    result.innerHTML =
+      "Congrat! You got Troy and Gabriella! You live life looking through rose tinted lenses and are the main charactacter in yout life. You attract other people to you because of your uniquness and tendancy to be different than the "status Quo;
   } else if (sharpayScore >= 3) {
     result.innerHTML = "sharpay";
   } else if (relsiScore >= 3) {
